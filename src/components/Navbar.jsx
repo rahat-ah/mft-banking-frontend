@@ -8,7 +8,7 @@ import { NavLink } from "react-router-dom";
 import { AuthContext } from "../contextApi/authContext";
 import profilePicMaker from "../utils/profilePicMaker";
 import axios from "axios";
-import logoImage from "../../public/mftLogo.png"
+import logoImage from "../assets/mftLogo.png"
 
 export default function Navbar() {
   const { hamMenuOpen, setHamMenuOpen, loginFormOpen, setLoginFormOpen } =
