@@ -8,6 +8,7 @@ import { NavLink } from "react-router-dom";
 import { AuthContext } from "../contextApi/authContext";
 import profilePicMaker from "../utils/profilePicMaker";
 import axios from "axios";
+import logoImage from "../../public/mftLogo.png"
 
 export default function Navbar() {
   const { hamMenuOpen, setHamMenuOpen, loginFormOpen, setLoginFormOpen } =
@@ -47,7 +48,7 @@ export default function Navbar() {
               onClick={() => navigate("/home")}
               className="flex items-center gap-2 cursor-pointer"
             >
-              <div className="w-9 h-9 rounded-full bg-linear-to-r from-blue-600 to-orange-500" />
+              <img src={logoImage} alt="logo image"  className="w-10 h-10" />
               <h1 className="text-lg font-bold text-blue-700">
                 MFT<span className="text-orange-500">Banking</span>
               </h1>
@@ -231,7 +232,7 @@ export default function Navbar() {
               }}
               className="flex items-center gap-2 cursor-pointer"
             >
-              <div className="w-10 h-10 rounded-full bg-linear-to-r from-blue-600 to-orange-500" />
+              <img src={logoImage} alt="logo image" className="w-10 h-10" />
               <h1 className="text-xl font-bold text-blue-700">
                 MFT<span className="text-orange-500">Banking</span>
               </h1>
