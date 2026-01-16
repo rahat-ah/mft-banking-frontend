@@ -2,7 +2,7 @@ import { useContext, useEffect, useState } from "react";
 import { FaBars, FaTimes, FaHome, FaUsers, FaPlusCircle } from "react-icons/fa";
 import { IoMdPerson } from "react-icons/io";
 import { RiLoginBoxFill } from "react-icons/ri";
-import { useNavigate } from "react-router";
+import { useNavigate } from "react-router-dom";
 import { UserContext } from "../contextApi/userContext";
 import { NavLink } from "react-router-dom";
 import { AuthContext } from "../contextApi/authContext";

@@ -1,7 +1,7 @@
 import { useFormik } from "formik";
 import { MdVerifiedUser } from "react-icons/md";
 import { useContext, useEffect, useState } from "react";
-import { useNavigate } from "react-router";
+import { useNavigate } from "react-router-dom";
 import { registerValidationSchema } from "../schemas/validationSchema";
 import { UserContext } from "../contextApi/userContext";
 import VerifyOtpPopup from "./VerifyOtpPopup";

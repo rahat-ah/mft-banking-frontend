@@ -1,7 +1,7 @@
 import BankingOfficers from "./components/BankingOfficers";
 import "./App.css";
 import { ToastContainer } from "react-toastify";
-import { Route, Routes } from "react-router";
+import { Route, Routes } from "react-router-dom";
 import BankingCustomers from "./components/BankingCustomers";
 import BankingCustomersDetails from "./components/BankingCustomersDetails";
 import DepositDue from "./components/DepositDue";

@@ -1,7 +1,7 @@
 import { useContext, useEffect, useState } from "react";
 import { FaUsers, FaMoneyCheckAlt, FaPlusCircle, FaArrowRight } from "react-icons/fa";
 import { FaFileCircleExclamation } from "react-icons/fa6";
-import {useNavigate} from "react-router"
+import {useNavigate} from "react-router-dom"
 import { UserContext } from "../contextApi/userContext";
 import getCurrentMonthDue from "../utils/getCurrentMonthDue";
 import { getTotalPaymentAmount } from "../utils/getTotalAmount";

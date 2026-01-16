@@ -1,6 +1,6 @@
 import { useContext, useEffect, useState } from "react";
 import PaymentPopup from "./PaymentPopup";
-import { useNavigate } from "react-router";
+import { useNavigate } from "react-router-dom";
 import CustomerSearchBar from "./CustomerSearchBar";
 import { UserContext } from "../contextApi/userContext";
 import profilePicMaker from "../utils/profilePicMaker";

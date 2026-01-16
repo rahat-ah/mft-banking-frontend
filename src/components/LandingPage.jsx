@@ -1,6 +1,6 @@
 import { useContext , useRef , useEffect} from "react";
 import { FaUsers, FaEnvelope, FaPhone } from "react-icons/fa";
-import { useNavigate } from "react-router";
+import { useNavigate } from "react-router-dom";
 import { UserContext } from "../contextApi/userContext";
 
 export default function LandingPage() {

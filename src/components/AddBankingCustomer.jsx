@@ -9,7 +9,7 @@ import {
 } from "react-icons/fa";
 import { useState } from "react";
 import { useFormik } from "formik";
-import { useNavigate } from "react-router";
+import { useNavigate } from "react-router-dom";
 import axios from "axios";
 import { toast } from "react-toastify";
 import { validationSchema } from "../schemas/validationSchema";
